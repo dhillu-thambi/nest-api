@@ -58,4 +58,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## API
+ - auth/signup
+ inputs: 
+  - name, email, usertype, password, phonenumber, caretakernumber, occupation, height, gender
+
+  -auth/signin
+  inputs:
+  - email, password
